@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AllTestGET" time="3.408" tests="2" failures="0" errors="0">
+   <testsuite name="AllTestGET" tests="2" failures="0" errors="0" time="3.408" skipped="0" timestamp="2022-08-27 14:22:59" hostname="muhammadbaihaqy - localhost" id="Test Suites/AllTestGET">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muhammadbaihaqy/git/Katalon-movieDB-API-Testing/Reports/20220827_142256/AllTestGET/20220827_142256"/>
+         <property name="logFiles" value="/Users/muhammadbaihaqy/git/Katalon-movieDB-API-Testing/Reports/20220827_142256/AllTestGET/20220827_142256/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammadbaihaqy - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/TestGETPopularMovies" time="2.409" classname="Test Cases/TestGETPopularMovies" status="PASSED">
+         <system-out><![CDATA[2022-08-27 14:23:00 - [TEST_CASE][PASSED] - Test Cases/TestGETPopularMovies: Test Cases/TestGETPopularMovies
+
+2022-08-27 14:23:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GETPopularMovies")): Send request successfully
+
+2022-08-27 14:23:02 - [MESSAGE][INFO] - HAR: /Users/muhammadbaihaqy/git/Katalon-movieDB-API-Testing/Reports/20220827_142256/AllTestGET/20220827_142256/requests/main/0.har
+
+2022-08-27 14:23:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-27 14:23:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-27 14:23:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestGETReviewMovie" time="0.583" classname="Test Cases/TestGETReviewMovie" status="PASSED">
+         <system-out><![CDATA[2022-08-27 14:23:02 - [TEST_CASE][PASSED] - Test Cases/TestGETReviewMovie: Test Cases/TestGETReviewMovie
+
+2022-08-27 14:23:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GETReviewMovie")): Send request successfully
+
+2022-08-27 14:23:03 - [MESSAGE][INFO] - HAR: /Users/muhammadbaihaqy/git/Katalon-movieDB-API-Testing/Reports/20220827_142256/AllTestGET/20220827_142256/requests/main/1.har
+
+2022-08-27 14:23:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-27 14:23:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-27 14:23:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-27 14:22:59 - [TEST_SUITE][PASSED] - AllTestGET: Test Cases/TestGETReviewMovie]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

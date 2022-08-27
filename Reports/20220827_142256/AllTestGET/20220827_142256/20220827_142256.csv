@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AllTestGET,,,,2022-08-27 14:22:59,2022-08-27 14:23:03,3.408s,PASSED
+,,,,,,,
+Test Cases/TestGETPopularMovies,,,,2022-08-27 14:23:00,2022-08-27 14:23:02,2.409s,PASSED
+"response = sendRequest(findTestObject(""GETPopularMovies""))",,,,2022-08-27 14:23:00,2022-08-27 14:23:02,1.934s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-27 14:23:02,2022-08-27 14:23:02,0.053s,PASSED
+,,,,,,,
+Test Cases/TestGETReviewMovie,,,,2022-08-27 14:23:02,2022-08-27 14:23:03,0.583s,PASSED
+"response = sendRequest(findTestObject(""GETReviewMovie""))",,,,2022-08-27 14:23:02,2022-08-27 14:23:03,0.232s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-27 14:23:03,2022-08-27 14:23:03,0.007s,PASSED
